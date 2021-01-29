@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
+
+input[type=text]
+{
+	border: 0.1vh solid blue;
+}
+
+input[type=number]
+{
+	border: 0.1vh solid blue;
+}
+
+
+.mainHeader
+{
+  height: 10vh;
+  border-bottom: 0.5vh solid blue;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url("http://1.bp.blogspot.com/-BVV947xlZtY/Vk4kkdo3III/AAAAAAAAFO4/unVH0li5jzg/s1600/20016_anime_scenery.jpg");
+}
+
+body
+{
+   background-image: url("http://1.bp.blogspot.com/-BVV947xlZtY/Vk4kkdo3III/AAAAAAAAFO4/unVH0li5jzg/s1600/20016_anime_scenery.jpg");
+}
+
+
+
+.inlineBlock{
+  display: inline-block;
+}
+
+.title
+{
+    position: relative;
+    top: calc(50% - .65em);
+    left: 5vw;
+}
+
+.interaction
+{
+  float: right;
+  margin-right: 5vw;
+  position: relative;
+  top: calc(50% - 3vh);
+}
+
+.hidden
+{
+	display: hidden;
+}
+
+.autocomplete-suggestions
+{
+	background-color: orange;
+}

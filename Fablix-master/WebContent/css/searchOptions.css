@@ -1,0 +1,37 @@
+*
+{
+	border: 0;
+	margin: 0;
+}
+
+.spacing
+{
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+}
+
+.titleSearch
+{
+	float:top;
+	display: inline-block;
+	width: 40vw;
+	overflow-wrap:break-word;
+	position: relative;
+	left:15vw;
+}
+
+.genreSearch
+{
+	display: inline-block;
+	margin-top: 4vh;
+	overflow-wrap:break-word;
+	width: 40vw;
+	position: relative;
+	left:4vw;
+	margin-bottom: 10vh;
+}
+
+.hidden
+{
+	display: hidden;
+}

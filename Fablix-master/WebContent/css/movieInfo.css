@@ -1,0 +1,29 @@
+.movieInfoDiv
+{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
+
+body
+{
+	background-image: url("http://1.bp.blogspot.com/-BVV947xlZtY/Vk4kkdo3III/AAAAAAAAFO4/unVH0li5jzg/s1600/20016_anime_scenery.jpg");
+	
+}
+
+
+.titleStyle
+{
+	font-size: 1.4em;
+}
+
+.addToCart
+{
+	margin-top:2vh;
+	max-height: 4vh;
+	max-width: 100%;
+}
+
+

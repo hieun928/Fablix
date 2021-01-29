@@ -1,0 +1,62 @@
+*
+{
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+body
+{
+	overflow-x: hidden;
+	background-image: url("http://1.bp.blogspot.com/-BVV947xlZtY/Vk4kkdo3III/AAAAAAAAFO4/unVH0li5jzg/s1600/20016_anime_scenery.jpg");
+	
+}
+
+.containers
+{
+  display:grid;
+  grid-template-columns: repeat(auto-fill,18vw);
+  grid-row-gap: 1.0vh;
+  margin-left: 4vw;
+}
+
+.ratingTitle
+{
+	margin: 2vh;
+	color: #000000;
+}
+.containers > .card .addToCart
+{
+	margin-top:2vh;
+	max-height: 4vh;
+	max-width: 100%;
+}
+
+.containers > .card .addToCart:hover
+{
+	margin-top:2vh;
+	max-height: 4vh;
+	max-width: 100%;
+	opacity:0.6;
+}
+
+.containers > .card
+{
+  text-align: center;
+  box-shadow: 0 0.4vh 1.0vh 0 rgba(0,0,0,0.2);
+  
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.card:hover
+{
+    box-shadow: 0 0.2vh 0.4vh 0 rgba(0,0,0,0.2);
+}
+
+.subInfo
+{
+  margin-top: 1.5vh;
+}

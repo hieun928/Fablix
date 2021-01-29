@@ -1,0 +1,14 @@
+<Context path="/Fablix">
+
+	<Resource name="jdbc/moviedb" auth="Container" type="javax.sql.DataSource"
+		maxTotal="50" maxIdle="0" maxWaitMillis="10000000" username="root"
+		password="root" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/moviedb?autoReconnect=true&amp;useSSL=false&amp;cachePrepStmts=true"
+	/>
+	
+	<Resource name="jdbc/moviedbWrite" auth="Container" type="javax.sql.DataSource"
+		maxTotal="50" maxIdle="0" maxWaitMillis="10000000" username="repl"
+		password="slavepassword" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://ec2-18-218-217-230.us-east-2.compute.amazonaws.com:3306/moviedb?autoReconnect=true&amp;useSSL=false&amp;cachePrepStmts=true"/>
+		
+</Context>
